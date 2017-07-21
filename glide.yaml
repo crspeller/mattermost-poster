@@ -1,3 +1,8 @@
 package: github.com/crspeller/mattermost-poster
 import:
+- package: github.com/howeyc/gopass
+- package: github.com/mattermost/platform
+  version: v4.0.1
+  subpackages:
+  - model
 - package: github.com/spf13/cobra
